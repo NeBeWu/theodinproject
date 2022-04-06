@@ -58,5 +58,7 @@ module.exports = {
   corePlugins: {
     container: false,
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
